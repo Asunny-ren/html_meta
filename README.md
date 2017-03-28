@@ -54,6 +54,9 @@ content | some_text | 定义与 http-equiv 或 name 属性相关的元信息
 <meta http-equiv="Content-Script-Type"Content="text/javascript">
 <!-- 禁止从本地缓存中读取页面 -->
 <meta http-equiv="Pragma"content="no-cache">
+<!-- 文档兼容模式的定义 -->
+<!-- Edge 模式告诉 IE 以最高级模式渲染文档，也就是任何 IE 版本都以当前版本所支持的最高级标准模式渲染，避免版本升级造成的影响。简单的说，就是什么版本 IE 就用什么版本的标准模式渲染 -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 ```
 
 #### 移动端
