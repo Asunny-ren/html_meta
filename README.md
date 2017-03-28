@@ -28,6 +28,11 @@ content | some_text | 定义与 http-equiv 或 name 属性相关的元信息
 <meta name="revised" content="story,2015/07/22" />
 <!-- 版权信息 -->
 <meta name="copyright" content="All Rights Reserved" />
+<!-- 设置浏览器兼容模式 -->
+<!-- 若页面需默认用极速核，增加标签：<meta name=”renderer” content=”webkit” /> -->
+<!-- 若页面需默认用ie兼容内核，增加标签：<meta name=”renderer” content=”ie-comp” /> -->
+<!-- 若页面需默认用ie标准内核，增加标签：<meta name=”renderer” content=”ie-stand” /> -->
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
 <!-- 页面爬虫设置 -->
 <meta name="robots" content="index,follow" />
 <!-- robots的content取值 -->
