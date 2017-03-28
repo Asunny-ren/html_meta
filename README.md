@@ -99,7 +99,7 @@ content | some_text | 定义与 http-equiv 或 name 属性相关的元信息
 <meta name="apple-itunes-app" content="app-id=myAppStoreID, affiliate-data=myAffiliateData, app-argument=myURL">
 
 <!-- 去除iphone 识别数字为号码 -->
-<meta name="format-detection" content="telephone=no">
+`<meta name="format-detection" content="telephone=no">`
 <!-- 不识别邮箱 -->
 <meta name="format-detection" content="email=no">
 <!-- 禁止跳转至地图 -->
